@@ -1,0 +1,51 @@
+
+body/*Aca centro la imagen*/
+{
+    margin: auto;
+    width: 240px;
+    padding: 240px;
+}
+
+table/*Le pongo borde y color a la tabla*/
+{
+    
+    border: 1px solid #353A46;
+    background-color: aqua;
+    
+    
+}
+
+input [type=txt], input[type=password]
+{
+    width: 100%;/*ancho*/
+    
+    border: 2px solidcolor #ccc;
+    box-sizing: border-box;
+}
+/*Modidicamos la el label*/
+label
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+}
+/*Aca modificamos la imagen*/
+img
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*Le doy un estilo al boton enviar*/
+input[type=submit]
+{
+    background-color:#1c94c8;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0px;
+    border: solid;
+    cursor: pointer;
+    width: 40%;
+}
+
