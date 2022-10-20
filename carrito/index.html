@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>carrito</title>
+</head>
+<body>
+    
+   
+    <section>
+        <a href="cerrar.php">Cerrar Sesion</a>
+        
+
+    </section>
+    
+        
+    
+                
+            
+        
+    
+    <label> Buscar:</label><!--Agrego un buscador-->
+       <input type="search" name="">
+    <header> <!--creo la barra de navegacion dentro de la etiqueta  header, o sea en la parte superior de la pantalla-->  
+        
+      
+
+        
+        
+        <nav class="menu" >
+            
+            <!--Creo la lista desordenadna con ul y con li creo los items de la lista-->
+            <ul>
+                <li><!--Con la etiqueta a redirecciono a cada pagina-->
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="pages/contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="pages/ubicacion.html">Ubicación</a>
+                </li>
+                <li>
+                    <a href="pages/usuario.php">Usuario</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <section>
+        <div>
+            <table>
+               
+                <th>Placa de video</th>
+                
+    
+                <tr>
+                    <img src="../carrito/img/nvidia.png" alt="Imagen Nvidia">
+                    <th>Nvidia gtx 1080</th>
+                    <td><legend>Cuantos desea comprar</legend></td>
+                    <td><label for="">1</label></td>
+                    <td><input type="checkbox" name="1" id="">
+                        <br></td>
+                    <td><label for="">2</label></td>
+                    <td><input type="checkbox" name="2" id=""></td>
+                </tr>
+                
+                    
+                        <th>Procesador</th>
+                            <img src="../carrito/img/ryzen.jpg" alt="">
+                        
+                        <tr>
+                            
+                            <th>Ryzen 9</th>
+                             <td><legend>Cuantos desea comprar</legend></td>
+                            <td><label for="">1</label></td>
+                            <td><input type="checkbox" name="1" id="">
+                                <br></td>
+                            <td><label for="">2</label></td>
+                            <td><input type="checkbox" name="2" id=""></td>
+                            
+                        </tr>
+                        
+                        <tr>
+
+                            <th>Memoria Ram</th>
+                           <img src="../carrito/img/kisspng-ddr3-sdram-kingston-technology-computer-data-stora-memria-ddr3-kingston-hyperx-savage-hx324c11srk2-5bac6a6a7c9350.7995172515380260905103.jpg" alt="">
+                            <td><legend>Cuantas desea comprar</legend></td>
+                            <td><label for="">1</label></td>
+                            <td><input type="checkbox" name="1" id="">
+                                <br></td>
+                            <td><label for="">2</label></td>
+                            <td><input type="checkbox" name="2" id=""></td>
+                        </tr>
+                        
+                        
+                    
+                
+               
+    
+            </table>
+        </div>
+
+        
+       
+        
+        
+    
+    <section>
+        <legend>¿Quiere suscribirse al boletin oficial?</legend>
+        <label>si</label>
+        <input type="radio"  name="respuesta" value="si">
+        <label>no</label>
+        <input type="radio" name="respuesta" value="no"> <!--Si no uso los value cuando pongo el get oe l post en php no me toma los valores-->
+        
+        
+    </section>   
+    <section>
+        <legend>Elija una opcion de pago: </legend>
+       <input type ="radio" id="radio-1" name="radio" value="Efectivo" checked>
+       
+       <label for="radio-1"> pago en efectivo</label>
+       <input type ="radio" id="radio-2" name="radio" value="Tarjeta" checked>
+       
+       <label for="radio-2"> pago con tarjeta</label>
+       
+    </section>
+    <section>
+        <input type="submit" value="Pagar">
+        <input type="reset" value="Borrar">
+    </section>
+
+    
+</body>
+<footer>
+    <p>Esta pagina fue desarrollada por: Iglesias Claudio, Diaz Andrea y Gonslke Walter</p>
+</footer>
+</html>

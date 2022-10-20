@@ -1,0 +1,78 @@
+*{/*Aca hago un reseteo para que se vea igual en todos los navegadores.
+    lo que hace en inicializar la pagina toda en 0 y a lo largo del progrmaa se va modificando*/
+    margin:0px;/*Saca el margen entre un parrafo y otro*/
+    padding: 0px; /*Saca lo espacio con el margen izquiero, donde irian las viñetas*/
+
+}
+
+table/*Le pongo borde y color a la tabla*/
+{
+    
+    border: 5px solid #353A46;
+    background-color: rgb(147, 247, 247);/*Background para darle color al fondo*/
+   
+}
+nav a{
+    font-weight: 50px;
+}
+
+img
+{
+    
+    width: 300px;
+    height: 300px;
+    
+}
+div/*Aca centro la imagen*/
+{
+    margin: auto;
+    width: 1000px;
+    padding: 100px;
+    /*background-color: #22577A;*/
+    
+   
+}
+body/*Aca Pongo imagen de fondo*/
+{
+
+    background-image: url("../img/fon.jpg");
+    
+    
+    
+   
+}
+h2{
+    background-color: aqua;
+}
+label
+{
+    background-color: aqua;
+}
+legend
+{
+    color: #22577A;
+}
+p{
+    color: aliceblue;
+    
+}
+/*Le doy estilo al menu con el ID podia llamarlo con # o en este caso cree una class*/
+.menu{
+    background-color: #000;
+    
+}
+.menu ul{
+    list-style:none ;/*Le saco las viñetas*/
+    margin: 0px;
+    padding:0px;
+}
+.menu ul li{
+    display: inline-block ;/*Queda una al lado del otro*/
+
+
+}
+.menu ul li a{
+    color: white;/*Le doy el colro blanco a las letras*/
+    text-decoration: none;/*Saco el subrayado*/
+    padding: 10px  ;/*Se separa uno del otro 10px*/
+}

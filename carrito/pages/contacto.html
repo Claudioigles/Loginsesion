@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <section>
+        <header> <!--creo la barra de navegacion dentro de la etiqueta  header, o sea en la parte superior de la pantalla-->  
+            <nav>
+                <!--Creo la lista desordenadna con ul y con li creo los items de la lista-->
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a><!--Aca pongo ../index.html para volver al inicio-->
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a><!--Saco el pages/ porque ya estoy en esa carpeta-->
+                    </li>
+                    <li>
+                        <a href="ubicacion.html">Ubicación</a>
+                    </li>
+                    <li>
+                        <a href="usuario.html">Usuario</a>
+                    </li>
+                   
+                </ul>
+            </nav>
+    
+    
+            
+        </header>
+       </section>
+
+       <section>
+        <form action="">
+            <fieldset>
+                <div>
+                    <legend>Formulario de contacto</legend>
+                <label for="">Nombre y Apellido:</label>
+                <input type="text" placeholder="Nombre y Apellido" required>
+
+                </div>
+                
+                <div>
+                    <label for="">N° de celular sin (011): </label>
+                <input type="tel" name="" required placeholder="n°de celular" pattern="[0-9]{8}"  >
+                
+                </div>
+                
+                <div>
+                    <label for="">Email: </label>
+                <input type="email" placeholder="email" required name="" id="">
+                
+                </div>
+                <div>
+                    <label> Consulta:</label>
+                    <textarea></textarea>
+                </div>
+                
+                <button type="submit">Enviar</button>
+            
+            </fieldset>
+
+        </form>
+       </section>
+
+</body>
+</html>
