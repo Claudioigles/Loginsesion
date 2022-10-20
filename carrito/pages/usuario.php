@@ -31,6 +31,7 @@
    //Muestro el usuario de la sesion
     
     echo "Bienvenido: ".$_SESSION['usuario'];
+    setcookie('usuarioCookie',$_SESSION['usuario'], time()-2500);//Boroo la cookie poniendo el negativo del tiempo en que la inicialice
    
 ?>
 
