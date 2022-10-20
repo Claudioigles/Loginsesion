@@ -31,7 +31,7 @@ img
     margin: 20px 55px 18px;
 }
 /*Modifico los button*/
-button{
+.botonEnviar{
     border: solid crimson;
     
 

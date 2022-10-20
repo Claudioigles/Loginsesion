@@ -11,13 +11,24 @@
 
         <a href="usuario.php"></a>
 <?php
+//Inicio sesion
     session_start();
     
-   
-    
+   //Creo una cookie con el usuario ingresado
+    setcookie('usuarioCookie',$_SESSION['usuario'], time()+2500);
+//Si la cookie no esta vacia muestro el contenido
+    if (isset($_COOKIE['usuarioCookie']))
+    {
+        echo 'El usuario almacendo en la cookies es: '.$_COOKIE['usuarioCookie'];
+
+    }else{
+        echo'No hay cookies';
+    }
+
+    echo '<br>';
    
       
-   
+   //Muestro el usuario de la sesion
     
     echo "Bienvenido: ".$_SESSION['usuario'];
    
