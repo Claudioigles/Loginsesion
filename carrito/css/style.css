@@ -14,23 +14,27 @@ table/*Le pongo borde y color a la tabla*/
 }
 nav a{
     font-weight: 50px;
+    
+}
+.cerrar{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 100px;
 }
 
 img
 {
     
-    width: 300px;
-    height: 300px;
-    
+    width: 600px;
+    height: 400px;
+    margin: 20px 55px 18px;
 }
-div/*Aca centro la imagen*/
-{
-    margin: auto;
-    width: 1000px;
-    padding: 100px;
-    /*background-color: #22577A;*/
+/*Modifico los button*/
+button{
+    border: solid crimson;
     
-   
+
 }
 body/*Aca Pongo imagen de fondo*/
 {
@@ -40,6 +44,10 @@ body/*Aca Pongo imagen de fondo*/
     
     
    
+}
+h1{
+    background-color: beige;
+    
 }
 h2{
     background-color: aqua;
